@@ -37,7 +37,7 @@ myObj.sayHey('Nat');
 
 // code example for Explicit Binding
 
-const sayName = function() {
+const speakName = function() {
 	console.log(`My name is ${this.name}`);
 };
 
@@ -46,7 +46,7 @@ const nat = {
 	city: 'Chicago' 
 };
 
-sayName.call(nat);
+speakName.call(nat);
 
 
 
